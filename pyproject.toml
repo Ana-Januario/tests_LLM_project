@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "tests"
+version = "0.1.0"
+description = "projeto teste"
+authors = ["AnaJanuario"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+langchain = "^0.2.14"
+langchain-community = "^0.2.12"
+langchain-openai = "^0.1.22"
+langchain-chroma = "^0.1.2"
+ipykernel = "^6.29.5"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+notebook = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
