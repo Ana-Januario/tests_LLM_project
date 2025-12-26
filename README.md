@@ -1,2 +1,2 @@
-# tests_LLM_project
-projeto simples envolvendo LLM e um documento pdf.
+# Project with LLM
+A simple project integrating a Large Language Model (LLM) with a PDF document focused on multicriteria decision-making concepts.
